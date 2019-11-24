@@ -2,7 +2,7 @@
 GeekTrust-FamilyProblem
 
 
-#Tested Commands
+# Tested Commands
 
 ```javascript
 ADD_CHILD Chitra Aria Female
@@ -23,6 +23,6 @@ GET_RELATIONSHIP Atya Sister-In-Law
 Satvy Krpi
 ```
 
-#Screensot
+# Screensot
 
 ![image](https://image.prntscr.com/image/SQ_Nmu6IQO64ztEU8Q3oTA.png)
