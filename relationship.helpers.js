@@ -41,8 +41,14 @@ const sisterOrBrotherInLaw = (of, param1, param2) => {
         a = [...a, ...node.children.map(i => i[param1])];
     });
   });
-  // console.log(a.filter(i => i).join(" "));
-  let tobePrinted = a.filter(i => i && i !== spouse && i !== of);
+  // console.log(a.filter(i => i).join(" "));let siblings = [];
+  familyTree.traverseDF(node => {
+    node.children.forEach(child => {
+      if(child.firstPerson == of)
+        siblings = node.children.map(i => i.firstPerson);
+    })
+  });
+  let tobePrinted = a.filter(i => i && i !== spouse && i !== of && !siblings.includes(i));
   if (tobePrinted.length) console.log(tobePrinted.join(" "));
   else console.log(NONE);
 };
