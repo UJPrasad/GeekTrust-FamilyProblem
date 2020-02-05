@@ -9,7 +9,7 @@ GitHub: https://github.com/UJPrasad/GeekTrust-FamilyProblem
 *  > cd into this repository
 
 ```
-npm start
+npm start "file_path"
 ```
 
 ## Brief Description of My Code Structure
