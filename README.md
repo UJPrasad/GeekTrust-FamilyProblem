@@ -52,3 +52,32 @@ Atya Yaya
 # Screenshots
 
 ![image](https://image.prntscr.com/image/SQ_Nmu6IQO64ztEU8Q3oTA.png)
+
+# Example File
+
+```
+ADD_CHILD Chitra Aria Female
+GET_RELATIONSHIP Lavnya Maternal-Aunt
+GET_RELATIONSHIP Aria Siblings
+ADD_CHILD Pjali Srutak Male
+GET_RELATIONSHIP Pjali Son
+ADD_CHILD Asva Vani Female
+GET_RELATIONSHIP Vasa Siblings
+GET_RELATIONSHIP Atya Sister-In-Law
+ADD_CHILD Satya Yaya Female
+GET_RELATIONSHIP Satvy Sister-In-Law
+```
+# Example Output
+
+```
+CHILD_ADDITION_SUCCEEDED
+Aria
+Jnki Ahit
+PERSON_NOT_FOUND
+PERSON_NOT_FOUND
+CHILD_ADDITION_FAILED
+NONE
+Satvy Krpi
+CHILD_ADDITION_SUCCEEDED
+Atya Yaya
+```
